@@ -6,10 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "fix": "node_modules/.bin/eslint --fix",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "mdbvue": "git+https://oauth2:rDWwt1rny9VgPUsXqx1u@git.mdbootstrap.com/mdb/vue/vu-pro.git",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
