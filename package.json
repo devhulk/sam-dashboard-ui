@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "fix": "node_modules/.bin/eslint --fix",
+    "serve": "vue-cli-service serve --fix",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "fix": "node_modules/.bin/eslint --fix",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
